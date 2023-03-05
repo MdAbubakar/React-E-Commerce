@@ -1,10 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-const Products = () => {
-  return <Wrapper></Wrapper>;
-};
-
 const Wrapper = styled.section`
   .grid-filter-column {
     grid-template-columns: 0.2fr 1fr;
@@ -16,5 +12,15 @@ const Wrapper = styled.section`
     }
   }
 `;
+
+const Products = () => {
+  return (
+    <Wrapper>
+      <h1>This is Products Page</h1>
+    </Wrapper>
+  );
+};
+
+
 
 export default Products;
