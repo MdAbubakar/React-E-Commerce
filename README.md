@@ -1,90 +1,70 @@
-# Welcome to Thapa Technical React Ecommerce Website Series
+# Getting Started with Create React App
 
-## Follow the 3 Steps and you are good to go. 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-1: Clone the Project 
+## Available Scripts
 
-2: simply run the command    `npm install`  - First to install all the packages
-   
-3: run the project using   `npm start`
-   
-   ------------ 
-   
-###  To get the source code guy's please check the `Switch branches/tags` and select the respective video branch for the source code ok.. 
+In the project directory, you can run:
 
-### Also I am creating a List of the video with the Link to the respective video code, you can checkout below 👇  
+### `npm start`
 
------------- 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- [Main Starter Files of React Ecom Source Code](https://github.com/thapatechnical/thapareactecom/blob/main/README.md)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- [Till Video 6 Source Code - Responsive Navbar](https://github.com/thapatechnical/thapareactecom/tree/react_ecom_navbar_v6) 
+### `npm test`
 
-- [Video 7 Source Code - Hero Section, Home & About Page](https://github.com/thapatechnical/thapareactecom/blob/react_ecom_HomeAboutPage_v7/src/components/HeroSection.js) 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- [Video 8 Source Code - Services & Trusted Section](https://github.com/thapatechnical/thapareactecom/tree/service_trusted_sec_v8) 
+### `npm run build`
 
-- [Video 9 Source Code - Contact Page with Email](https://github.com/thapatechnical/thapareactecom/tree/ecom_contact_v9)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- [Video 10 Source Code - Footer Component](https://github.com/thapatechnical/thapareactecom/tree/ecom_footer_v10)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- [Video 11 Source Code - 404 Error Page ](https://github.com/thapatechnical/thapareactecom/tree/ecom_errorpage_v11)
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [Video 12 Source Code - Context API ](https://github.com/thapatechnical/thapareactecom/tree/ecom_productContext_v12)
+### `npm run eject`
 
-- [Video 13 Source Code - Fech API data with Axios ](https://github.com/thapatechnical/thapareactecom/tree/ecom_apiAxious_v13)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-- [Video 14 Source Code - useReducer Hook for State mang. ](https://github.com/thapatechnical/thapareactecom/tree/ecom_productReducer_v14)
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- [Video 15 Source Code - Feature Section Of Home Page ](https://github.com/thapatechnical/thapareactecom/tree/ecom_featureSec_v15)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- [Video 16 Source Code - Format Price Indian Currency ](https://github.com/thapatechnical/thapareactecom/tree/ecom_formatPrice_v16)
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- [Video 17th & 18th Source Code - Single Product Page with API  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_singleProduct_Context_v17)
+## Learn More
 
-- [Video 19 Source Code - Page Navigation & UI Part  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_pagenavigation_v19)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [Video 20 Source Code - Dynmaic Image Filter Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_dynamicImage_v20)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- [Video 21 Source Code - Star Ratings & Reviews Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_starratings_v21)
+### Code Splitting
 
-- [Video 22 Source Code - Dynamic Color Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_color_cart_v22)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- [Video 23 Source Code - Product Quantity Section   ](https://github.com/thapatechnical/thapareactecom/tree/ecom_color_cart_v22)
+### Analyzing the Bundle Size
 
-- [Video 24 & 25 Source Code - Products Page Conext Setup  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_gridlist_v26)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- [Video 26, 27 & 28 Source Code - Products Page Sorting  ](https://github.com/thapatechnical/thapareactecom/tree/ecom_sorting_dropdown)
+### Making a Progressive Web App
 
-- [Video 29, 30, 31 & 32 Source Code - Products Page Sorting completed ](https://github.com/thapatechnical/thapareactecom/tree/ecom_sorting_simplified_v32)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-- [Video 33, 34, 35, 36 & 37 Source Code - Products Page Filters Till Colors ](https://github.com/thapatechnical/thapareactecom/tree/ecom_colorsfilter_v37)
+### Advanced Configuration
 
-- [Video 38, 39, & 40 Source Code - Products Page colors filter done ](https://github.com/thapatechnical/thapareactecom/tree/ecom_colorsAll_v40)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-- [Video 41, 42, & 43 Source Code - Product Filter completed ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_remove_v47)
+### Deployment
 
-- [Video 44 & 45 Source Code - Cart Context & Reducer ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_remove_v47)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- [Video 46 & 47 Source Code - Cart Table & Remove Btn ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_remove_v47)
+### `npm run build` fails to minify
 
-- [Video 48, 49 & 50 Source Code - Till clear Cart Button ](https://github.com/thapatechnical/thapareactecom/tree/ecom_addtocart_clear_v49)
-
-- [Video 51, 52 & 53 Source Code - Add to Cart done ](https://github.com/thapatechnical/thapareactecom/tree/ecom_cart_final_v53)
-
-- [Video 53, 54 & 55 Source Code - Complete Ecom Website Frontend done ](https://github.com/thapatechnical/thapareactecom/tree/ecom_frontendDone_v55)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
