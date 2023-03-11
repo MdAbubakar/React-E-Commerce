@@ -53,7 +53,7 @@ const Wrapper = styled.section`
 `;
 
 const AddToCart = ({ product }) => {
-  const { id, colors, stock } = product;
+  const { colors, stock } = product;
   const [color, setColor] = useState(colors[0]);
   const [amount, setAmount] = useState(1);
 
