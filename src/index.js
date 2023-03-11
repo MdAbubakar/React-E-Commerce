@@ -5,13 +5,16 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import { AppProvider } from "./context/productcontext";
+import { FilterContextProvider } from "./context/filtercontext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <HashRouter>
     <AppProvider>
-      <App />
+      <FilterContextProvider>
+        <App />
+      </FilterContextProvider>
     </AppProvider>
   </HashRouter>
 );

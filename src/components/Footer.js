@@ -75,6 +75,11 @@ const Wrapper = styled.section`
     footer {
       padding: 9rem 0 9rem 0;
     }
+    .footer-subscribe {
+      .follow-btn {
+        margin-left: 2rem;
+      }
+    }
     .footer-bottom--section {
       padding-top: 4.8rem;
     }
@@ -118,7 +123,7 @@ const Footer = () => {
                 id="email"
                 placeholder="Your E-mail"
               />
-              <input type="submit" value="Follow" />
+              <input type="submit" value="Follow" className="follow-btn" />
             </form>
           </div>
 

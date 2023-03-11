@@ -26,6 +26,9 @@ const Wrapper = styled.section`
     align-items: flex-start;
     justify-content: center;
     gap: 2rem;
+    h2 {
+      text-transform: capitalize;
+    }
     .product-data-warranty {
       width: 100%;
       display: flex;
