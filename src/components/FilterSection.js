@@ -96,9 +96,19 @@ const Wrapper = styled.section`
 
 const FilterSection = () => {
   const {
-    filters: { text },
+    filters: { text, category },
+    all_products,
     updateFilterValue,
   } = useFilterContext();
+
+  // To get the unique data of each field
+  const getUniqueData = (data, property) => {
+    let newValue = data.map((curElem) => {
+      return curElem[property];
+    });
+    return (newValue = ["All", ...new Set(newValue)]);
+  };
+  const categorizedData = getUniqueData(all_products, "category");
 
   return (
     <Wrapper>
@@ -108,10 +118,29 @@ const FilterSection = () => {
             type="text"
             name="text"
             value={text}
-            placeholder="Keyword"
+            placeholder="Search"
             onChange={updateFilterValue}
           />
         </form>
+      </div>
+
+      <div className="filter-category">
+        <h3>Category</h3>
+        <div>
+          {categorizedData.map((curElem, index) => {
+            return (
+              <button
+                key={index}
+                type="button"
+                name="category"
+                onClick={updateFilterValue}
+                value={curElem}
+              >
+                {curElem}
+              </button>
+            );
+          })}
+        </div>
       </div>
     </Wrapper>
   );
