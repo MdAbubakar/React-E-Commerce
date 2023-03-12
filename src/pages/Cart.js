@@ -1,8 +1,5 @@
 import styled from "styled-components";
-
-const Cart = () => {
-  return <Wrapper></Wrapper>;
-};
+import { useCartContext } from "../context/cartcontext";
 
 const Wrapper = styled.section`
   padding: 9rem 0;
@@ -178,5 +175,24 @@ const Wrapper = styled.section`
     }
   }
 `;
+
+const Cart = () => {
+  const { cart } = useCartContext();
+  console.log(cart);
+  return (
+    <Wrapper>
+      <div className="container">
+        <div className="cart_heading grid grid-five-column">
+          <p>Item</p>
+          <p className="cart_hide">Price</p>
+          <p>Quantity</p>
+          <p className="cart_hide">Subtotal</p>
+          <p>Remove</p>
+        </div>
+        <hr />
+      </div>
+    </Wrapper>
+  );
+};
 
 export default Cart;

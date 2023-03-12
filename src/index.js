@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import { AppProvider } from "./context/productcontext";
 import { FilterContextProvider } from "./context/filtercontext";
+import { CartProvider } from "./context/cartcontext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -13,7 +14,9 @@ root.render(
   <HashRouter>
     <AppProvider>
       <FilterContextProvider>
-        <App />
+        <CartProvider>
+          <App />
+        </CartProvider>
       </FilterContextProvider>
     </AppProvider>
   </HashRouter>

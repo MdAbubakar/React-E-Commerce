@@ -35,7 +35,7 @@ const Wrapper = styled.section`
 const Contact = () => {
   return (
     <Wrapper>
-      <h2 className="common-heading">Contact Page</h2>
+      <h2 className="common-heading">Contact Us</h2>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3458.5704667830664!2d77.83593211443963!3d29.905474932080384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390eb3872a2effed%3A0x2ff01f463246d556!2sRoorkee%20Institute%20of%20Technology%20(RIT)!5e0!3m2!1sen!2sin!4v1677996540651!5m2!1sen!2sin"
         width="100%"
