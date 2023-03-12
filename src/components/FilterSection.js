@@ -221,7 +221,6 @@ const FilterSection = () => {
           id="price"
           min={minPrice}
           max={maxPrice}
-          step="100"
           value={price}
           onChange={updateFilterValue}
         />
