@@ -71,7 +71,7 @@ const HeroSection = ({ myData }) => {
             <p className="intro-data">Welcome to </p>
             <h1>{name}</h1>
             <p>{para}</p>
-            <NavLink>
+            <NavLink to="/products">
               <Button>{btnText}</Button>
             </NavLink>
           </div>

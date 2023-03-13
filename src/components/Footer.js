@@ -201,14 +201,22 @@ const Footer = () => {
           <hr />
           <div className="container grid grid-three-column">
             <p>
-              &#169; {new Date().getFullYear()} E-Commerce. All Rights Reserved
+              Copyright &#169; {new Date().getFullYear()} E-Commerce Pvt. Ltd.{" "}
+              <br />
+              <u>All Rights Reserved</u>
             </p>
             <div>
-              <p>PRIVACY POLICY</p>
-              <p>TERMS & CONDITIONS</p>
+              <p>
+                <u>Privacy Policy</u>
+              </p>
+              <p>
+                <u>Terms & Conditions</u>
+              </p>
             </div>
             <div>
-              <p>DEVELOPED BY:</p>
+              <p>
+                <u>Developed By</u>
+              </p>
               <p>MD ABUBAKAR</p>
             </div>
           </div>
